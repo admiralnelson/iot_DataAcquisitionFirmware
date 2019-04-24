@@ -1,11 +1,12 @@
+
 /*
  Name:		iot.ino
  Created:	4/24/2019 4:29:12 PM
  Author:	MIIX 510
 */
 // the setup function runs once when you press reset or power the board
-#include <DHT_U.h>
 #include <DHT.h>
+
 #include <WiFi.h>
 #include <Arduino_JSON.h>
 #include <HTTPClient.h>
